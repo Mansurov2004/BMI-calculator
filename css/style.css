@@ -1,0 +1,50 @@
+*{
+    font-family: 'Gowun Dodum', sans-serif;
+}
+
+body {
+    background-color:#9c080f;
+}
+
+.container {
+    width: 400px;
+    background-color: #0a0a0a;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    padding: 50px;
+    box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
+}
+
+h1 {
+    color: red;
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    height: 35px;
+    outline: none;
+}
+p {
+    color: white;
+}
+
+#button {
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    height: 35px;
+    width: 150px;
+    margin-top: 25px;
+    font-size: 20px;
+    border: none;
+}
+
+#result {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+}
